@@ -1,0 +1,18 @@
+body{background-color: #DDDDDD;color: #555;margin: auto}
+
+h1{text-align: center;font-size:24px;line-height:80px;
+    border-bottom: 2px dashed #DDD}
+
+article{width: 740px;height: 900px;margin:0 auto;background-color: beige;padding: 20px}
+
+section h2{font-weight: bold;font-size: 20px;color: black;border-bottom: 2px dashed #DDD;
+    border-left: 2px dashed #DDD;padding: 10px;line-height: 20px}
+
+ul{color: black;font-size: 18px;}
+
+img{float: right;display: block;width: 200px;height: 200px;margin:0 100px 0 10px;border: 5px solid #DDD;border-radius: 50%;}
+@media all and (max-width:768px){
+    article{width:100%;box-sizing: border-box}
+    section figure{width:100%}
+    section figure img{width:100%;}
+    .img1{width:100%;float:none;margin:10px 0 0 0}
